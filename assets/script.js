@@ -7,7 +7,7 @@ $("#currentDay").text(moment().format("dddd, MMMM Do YYYY"))
 
 function timeBlockColors() {
     $(".time-block").each(function() {
-        var blockColors = parseInt($(this).attr("id").split("hour") [1]);
+        var blockColors = parseInt($(this).children().eq(1).attr("id"));
         
         if (blockColors < currentTime) {
             $(this).addClass("past");
