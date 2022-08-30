@@ -29,7 +29,7 @@ $("#17 .description").val(localStorage.getItem("17"));
 
 function timeBlockColors() {
     $(".time-block").each(function() {
-        var blockColors = parseInt($(this).children().eq(1).attr("id"));
+        var blockColors = parseInt($(this).attr("id").split("hour")[1]);
         
         if (blockColors < currentTime) {
             $(this).addClass("past");
@@ -49,7 +49,11 @@ function timeBlockColors() {
         }
         
     })
-    return
+ 
+ return
+
+
+ 
 }
 
 timeBlockColors();
