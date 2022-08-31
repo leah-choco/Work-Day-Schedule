@@ -1,3 +1,5 @@
+
+/*Changed margin-bottom to give it a cleaner look as your scroll down*/
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -6,6 +8,7 @@ body {
     
   }
   
+  /*Changed font-size*/
   textarea{
     background: transparent;
     resize: none;
@@ -38,7 +41,7 @@ body {
     height: 80px;
     border: 1px solid white;;
   }
-  /*Changed the border to solid*/
+  /*Changed the border to solid and moved the hour to the middle of the column*/
   .hour {
     background-color: #ffffff;
     color: #000000;
