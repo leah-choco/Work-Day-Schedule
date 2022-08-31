@@ -1,6 +1,6 @@
 # Work-Day-Schedule
 
-Deployed Application:
+Deployed Application: https://leah-choco.github.io/Work-Day-Schedule/
 
 For this project, I was asked to finish creating a scheduling application that would be color coded based on the time (Gray=past, Red=present, Green=future). It should also allow the client to save the events that they added into the application. 
 
