@@ -77,3 +77,13 @@ body {
     transition: all .3s ease-in-out;
   }
   
+  /*Phone Media Queries*/
+@media screen and (max-width: 600px) {
+ .container{
+  width: 100vh;
+  margin-bottom: 0;
+ }
+ .jumbotron{
+  width: 100vh;
+ }
+}
